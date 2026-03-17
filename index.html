@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Foodlay Clone Placeholder</title>
+  <title>Restaurant</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -25,10 +25,19 @@
       </header>
 
       <nav class="navbar">
-        <div class="logo">Food<span>lay</span></div>
+        <div class="logo">Fast<span>Delivery</span></div>
         <ul class="nav-links">
           <li><a class="active" href="#">Home</a></li>
-          <li><a href="#categories">Category <span class="caret">⌄</span></a></li>
+          <li class="nav-item-dropdown">
+    <a href="#categories">Category <span class="caret">⌄</span></a>
+    <div class="dropdown-menu">
+      <a href="#">Burger</a>
+      <a href="#">Pizza</a>
+      <a href="#">Chowmin</a>
+      <a href="#">Juice</a>
+      <a href="#">Dessert</a>
+    </div>
+  </li>
           <li><a href="#menu">Menu</a></li>
           <li><a href="#offers">Offers <span class="badge">6</span></a></li>
         </ul>
@@ -50,10 +59,10 @@
       </div>
 
       <section class="hero">
-        <h1>Hungry? Discover the best food in <span>Foodlay</span> - order, eat, repeat.</h1>
+        <h1>Hungry? Discover the best food in <span> Kampala</span> - order, eat, repeat.</h1>
         <div class="search-bar">
           <span class="search-icon">⌕</span>
-          <input type="text" placeholder="Search for 'Kabab'" />
+          <input type="text" placeholder="Search..." />
           <button class="mic-btn">🎤</button>
         </div>
       </section>
@@ -62,84 +71,84 @@
         <button class="slider-arrow left" aria-label="previous">‹</button>
         <div class="promo-track">
           <article class="promo-card card-dark">
-            <div class="brand-row">LOGO PLACEHOLDER</div>
-            <div class="promo-media placeholder-banner">BANNER 1</div>
+         
+           <div class="promo-media category-image"><img src="assets/3.png" alt="Banner 1" class="promo-media real-image"></div>
             <div class="promo-copy">
               <small>OFFER BANNER</small>
               <h3>40% OFF</h3>
-              <p>Replace with your banner image</p>
+             
             </div>
           </article>
 
           <article class="promo-card card-dark">
-            <div class="brand-row">LOGO PLACEHOLDER</div>
-            <div class="promo-media placeholder-banner">BANNER 2</div>
+           
+           <div class="promo-media category-image"><img src="assets/4.png" alt="Banner 1" class="promo-media real-image"></div>
             <div class="promo-copy">
               <small>FEATURED DEAL</small>
               <h3>Burger Promo</h3>
-              <p>Replace with your banner image</p>
+              
             </div>
           </article>
 
           <article class="promo-card card-light">
-            <div class="promo-media placeholder-banner tall">BANNER 3</div>
+         <div class="promo-media category-image">  <img src="assets/5.png" alt="Banner 1" class="promo-media real-image"></div>
             <div class="promo-copy dark-text">
               <small>20% OFF</small>
               <h3>On your 1st order</h3>
-              <p>Replace with your banner image</p>
+            
+            </div>
+          </article>
+           <article class="promo-card card-light">
+         <div class="promo-media category-image">  <img src="assets/7.png" alt="Banner 1" class="promo-media real-image"></div>
+            <div class="promo-copy dark-text">
+              <small>20% OFF</small>
+              <h3>On your 1st order</h3>
+             
             </div>
           </article>
 
-          <article class="promo-card card-dark">
-            <div class="brand-row">LOGO PLACEHOLDER</div>
-            <div class="promo-media placeholder-banner">BANNER 4</div>
-            <div class="promo-copy">
-              <small>OFFER BANNER</small>
-              <h3>40% OFF</h3>
-              <p>Replace with your banner image</p>
-            </div>
-          </article>
+          
         </div>
         <button class="slider-arrow right" aria-label="next">›</button>
       </section>
 
       <section class="catalog-section" id="categories">
         <div class="section-head">
-          <h2>Explore You Desires</h2>
+          <h3>Explore You Desires</h3>
           <a href="#">View All <span>→</span></a>
         </div>
 
         <div class="category-grid">
           <article class="category-card">
-            <div class="category-image placeholder-square">CATEGORY IMAGE</div>
+          <div> <img src="assets/16.webp" alt="Category" class="category-image real-image"></div>
             <h3>Chowmin</h3>
           </article>
           <article class="category-card">
-            <div class="category-image placeholder-square">CATEGORY IMAGE</div>
+            <div> <img src="assets/13.webp" alt="Category" class="category-image real-image"></div>
             <h3>Burger</h3>
           </article>
           <article class="category-card">
-            <div class="category-image placeholder-square">CATEGORY IMAGE</div>
+           <div> <img src="assets/25.webp" alt="Category" class="category-image real-image"></div>
             <h3>Pizza</h3>
           </article>
           <article class="category-card">
-            <div class="category-image placeholder-square">CATEGORY IMAGE</div>
-            <h3>Onion Fry</h3>
+            <div><img src="assets/15.webp" alt="Category" class="category-image real-image"></div>
+            <h3>Vegetable Fry</h3>
           </article>
           <article class="category-card">
-            <div class="category-image placeholder-square">CATEGORY IMAGE</div>
+            <div> <img src="assets/19.webp" alt="Category" class="category-image real-image"></div>
             <h3>French Fry</h3>
           </article>
           <article class="category-card">
-            <div class="category-image placeholder-square">CATEGORY IMAGE</div>
+          <div>  <img src="assets/26.webp" alt="Category" class="category-image real-image"></div>
             <h3>Juice</h3>
           </article>
           <article class="category-card">
-            <div class="category-image placeholder-square">CATEGORY IMAGE</div>
-            <h3>Coffee</h3>
+           <div> <img src="assets/31.webp" alt="Category" class="category-image real-image"></div>
+            <h3>Italian Fry</h3>
           </article>
           <article class="category-card">
-            <div class="category-image placeholder-square">CATEGORY IMAGE</div>
+           <div> <img src="assets/28.webp" alt="Category" class="category-image real-image"></div>
             <h3>Dessert</h3>
           </article>
         </div>
@@ -147,13 +156,13 @@
 
       <section class="menu-section" id="menu">
         <div class="section-head">
-          <h2>Popular Menu</h2>
+          <h3>Popular Menu</h3>
           <a href="#">Browse Menu <span>→</span></a>
         </div>
 
         <div class="menu-grid">
           <article class="menu-card">
-            <div class="menu-image placeholder-rect">MENU IMAGE</div>
+          <div><img src="assets/33.webp" alt="Menu item" class="menu-image real-image"></div>
             <div class="menu-info">
               <h3>Classic Burger</h3>
               <p>Item description placeholder</p>
@@ -161,7 +170,7 @@
             </div>
           </article>
           <article class="menu-card">
-            <div class="menu-image placeholder-rect">MENU IMAGE</div>
+          <div>  <img src="assets/12.webp" alt="Menu item" class="menu-image real-image"></div>
             <div class="menu-info">
               <h3>Chicken Pizza</h3>
               <p>Item description placeholder</p>
@@ -169,7 +178,7 @@
             </div>
           </article>
           <article class="menu-card">
-            <div class="menu-image placeholder-rect">MENU IMAGE</div>
+          <div> <img src="assets/36.webp" alt="Menu item" class="menu-image real-image"></div>
             <div class="menu-info">
               <h3>Noodles Bowl</h3>
               <p>Item description placeholder</p>
@@ -177,7 +186,7 @@
             </div>
           </article>
           <article class="menu-card">
-            <div class="menu-image placeholder-rect">MENU IMAGE</div>
+           <div> <img src="assets/14.webp" alt="Menu item" class="menu-image real-image"></div>
             <div class="menu-info">
               <h3>Rice Combo</h3>
               <p>Item description placeholder</p>
