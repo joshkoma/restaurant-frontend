@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Foodlay Clone Placeholder</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <main class="site-window">
+      <header class="top-meta">
+        <div class="location-select">
+          <span class="dot"></span>
+          <span>Select Your Location</span>
+          <span class="caret">⌄</span>
+        </div>
+        <div class="top-actions">
+          <button class="icon-btn flag-btn" aria-label="language">⚑</button>
+          <button class="lang-btn">EN <span class="caret">⌄</span></button>
+        </div>
+      </header>
+
+      <nav class="navbar">
+        <div class="logo">Food<span>lay</span></div>
+        <ul class="nav-links">
+          <li><a class="active" href="#">Home</a></li>
+          <li><a href="#categories">Category <span class="caret">⌄</span></a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#offers">Offers <span class="badge">6</span></a></li>
+        </ul>
+        <div class="nav-icons">
+          <button class="icon-btn">⌕</button>
+          <button class="icon-btn">♡</button>
+          <button class="icon-btn">◫</button>
+          <button class="icon-btn">🛒</button>
+          <button class="avatar-btn"></button>
+        </div>
+        <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+      </nav>
+
+      <div class="mobile-drawer" id="mobileDrawer">
+        <a href="#">Home</a>
+        <a href="#categories">Category</a>
+        <a href="#menu">Menu</a>
+        <a href="#offers">Offers</a>
+      </div>
+
+      <section class="hero">
+        <h1>Hungry? Discover the best food in <span>Foodlay</span> - order, eat, repeat.</h1>
+        <div class="search-bar">
+          <span class="search-icon">⌕</span>
+          <input type="text" placeholder="Search for 'Kabab'" />
+          <button class="mic-btn">🎤</button>
+        </div>
+      </section>
+
+      <section class="offers-section" id="offers">
+        <button class="slider-arrow left" aria-label="previous">‹</button>
+        <div class="promo-track">
+          <article class="promo-card card-dark">
+            <div class="brand-row">LOGO PLACEHOLDER</div>
+            <div class="promo-media placeholder-banner">BANNER 1</div>
+            <div class="promo-copy">
+              <small>OFFER BANNER</small>
+              <h3>40% OFF</h3>
+              <p>Replace with your banner image</p>
+            </div>
+          </article>
+
+          <article class="promo-card card-dark">
+            <div class="brand-row">LOGO PLACEHOLDER</div>
+            <div class="promo-media placeholder-banner">BANNER 2</div>
+            <div class="promo-copy">
+              <small>FEATURED DEAL</small>
+              <h3>Burger Promo</h3>
+              <p>Replace with your banner image</p>
+            </div>
+          </article>
+
+          <article class="promo-card card-light">
+            <div class="promo-media placeholder-banner tall">BANNER 3</div>
+            <div class="promo-copy dark-text">
+              <small>20% OFF</small>
+              <h3>On your 1st order</h3>
+              <p>Replace with your banner image</p>
+            </div>
+          </article>
+
+          <article class="promo-card card-dark">
+            <div class="brand-row">LOGO PLACEHOLDER</div>
+            <div class="promo-media placeholder-banner">BANNER 4</div>
+            <div class="promo-copy">
+              <small>OFFER BANNER</small>
+              <h3>40% OFF</h3>
+              <p>Replace with your banner image</p>
+            </div>
+          </article>
+        </div>
+        <button class="slider-arrow right" aria-label="next">›</button>
+      </section>
+
+      <section class="catalog-section" id="categories">
+        <div class="section-head">
+          <h2>Explore You Desires</h2>
+          <a href="#">View All <span>→</span></a>
+        </div>
+
+        <div class="category-grid">
+          <article class="category-card">
+            <div class="category-image placeholder-square">CATEGORY IMAGE</div>
+            <h3>Chowmin</h3>
+          </article>
+          <article class="category-card">
+            <div class="category-image placeholder-square">CATEGORY IMAGE</div>
+            <h3>Burger</h3>
+          </article>
+          <article class="category-card">
+            <div class="category-image placeholder-square">CATEGORY IMAGE</div>
+            <h3>Pizza</h3>
+          </article>
+          <article class="category-card">
+            <div class="category-image placeholder-square">CATEGORY IMAGE</div>
+            <h3>Onion Fry</h3>
+          </article>
+          <article class="category-card">
+            <div class="category-image placeholder-square">CATEGORY IMAGE</div>
+            <h3>French Fry</h3>
+          </article>
+          <article class="category-card">
+            <div class="category-image placeholder-square">CATEGORY IMAGE</div>
+            <h3>Juice</h3>
+          </article>
+          <article class="category-card">
+            <div class="category-image placeholder-square">CATEGORY IMAGE</div>
+            <h3>Coffee</h3>
+          </article>
+          <article class="category-card">
+            <div class="category-image placeholder-square">CATEGORY IMAGE</div>
+            <h3>Dessert</h3>
+          </article>
+        </div>
+      </section>
+
+      <section class="menu-section" id="menu">
+        <div class="section-head">
+          <h2>Popular Menu</h2>
+          <a href="#">Browse Menu <span>→</span></a>
+        </div>
+
+        <div class="menu-grid">
+          <article class="menu-card">
+            <div class="menu-image placeholder-rect">MENU IMAGE</div>
+            <div class="menu-info">
+              <h3>Classic Burger</h3>
+              <p>Item description placeholder</p>
+              <div class="price-row"><span>$12.00</span><button>Add</button></div>
+            </div>
+          </article>
+          <article class="menu-card">
+            <div class="menu-image placeholder-rect">MENU IMAGE</div>
+            <div class="menu-info">
+              <h3>Chicken Pizza</h3>
+              <p>Item description placeholder</p>
+              <div class="price-row"><span>$15.00</span><button>Add</button></div>
+            </div>
+          </article>
+          <article class="menu-card">
+            <div class="menu-image placeholder-rect">MENU IMAGE</div>
+            <div class="menu-info">
+              <h3>Noodles Bowl</h3>
+              <p>Item description placeholder</p>
+              <div class="price-row"><span>$10.00</span><button>Add</button></div>
+            </div>
+          </article>
+          <article class="menu-card">
+            <div class="menu-image placeholder-rect">MENU IMAGE</div>
+            <div class="menu-info">
+              <h3>Rice Combo</h3>
+              <p>Item description placeholder</p>
+              <div class="price-row"><span>$11.00</span><button>Add</button></div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
