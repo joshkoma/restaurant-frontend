@@ -705,3 +705,9 @@ button { cursor: pointer; }
 .caret svg {
   display: block;
 }
+.avatar-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #555d66;
+}
