@@ -260,7 +260,7 @@ button { cursor: pointer; }
 }
 .promo-copy h3 {
   margin: 0 0 6px;
-  font-size: 28px;
+  font-size: px;
   line-height: 1.05;
 }
 .promo-copy p {
@@ -337,7 +337,7 @@ button { cursor: pointer; }
   letter-spacing: .05em;
 }
 .category-image {
-  aspect-ratio: 1 / 1;
+  object-fit: cover;
   border-radius: 12px;
   font-size: 10px;
 }
@@ -375,7 +375,7 @@ button { cursor: pointer; }
   justify-content: space-between;
 }
 .price-row span {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 800;
 }
 .price-row button {
@@ -457,5 +457,29 @@ button { cursor: pointer; }
 }
 
 .nav-item-dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.menu-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-image {
+  height: 190px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.menu-info p {
+  min-height: 42px;
+}
+
+.nav-item-dropdown {
+  position: relative;
+}
+
+.nav-item-dropdown:hover .dropdown-menu,
+.nav-item-dropdown:focus-within .dropdown-menu {
   display: block;
 }
