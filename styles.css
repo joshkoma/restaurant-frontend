@@ -1,5 +1,5 @@
 :root {
-  --bg: #dceef3;
+  --bg: #ffffff;
   --panel: #ffffff;
   --panel-soft: #f4f5f6;
   --text: #2c2f33;
@@ -34,7 +34,7 @@ button { cursor: pointer; }
   max-width: 1080px;
   margin: 0 auto;
   background: var(--panel);
-  border: 10px solid #cfe8f0;
+ 
   border-radius: 30px;
   box-shadow: var(--shadow);
   overflow: hidden;
@@ -116,7 +116,7 @@ button { cursor: pointer; }
   font-weight: 800;
   letter-spacing: -0.03em;
 }
-.logo span { color: rgb(252, 188, 50) }
+.logo span { color: rgb(255, 164, 44) }
 
 .nav-links {
   list-style: none;
