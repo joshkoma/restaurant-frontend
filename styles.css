@@ -388,12 +388,18 @@ button { cursor: pointer; }
   .promo-track { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .category-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
   .menu-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .explore-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (max-width: 860px) {
   .top-meta,
   .navbar,
   .hero,
+  .explore-grid {
+    grid-template-columns: 1fr;
+  }
   .catalog-section,
   .menu-section { padding-left: 22px; padding-right: 22px; }
   .nav-links, .nav-icons { display: none; }
@@ -407,6 +413,9 @@ button { cursor: pointer; }
   .site-window { border-width: 5px; border-radius: 22px; }
   .promo-track,
   .menu-grid,
+  .explore-grid {
+    grid-template-columns: 1fr;
+  }
   .category-grid { grid-template-columns: 1fr; }
   .hero { padding-top: 32px; }
   .hero h1 { font-size: 22px; }
@@ -488,7 +497,6 @@ button { cursor: pointer; }
 
 .explore-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
 }
 
