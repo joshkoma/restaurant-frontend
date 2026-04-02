@@ -901,6 +901,12 @@ button { cursor: pointer; }
   .explore-grid {
     grid-template-columns: 1fr;
   }
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+  .payment-options {
+    flex-direction: column;
+  }
   .category-grid { grid-template-columns: 1fr; }
   .hero { padding-top: 32px; }
   .hero h1 { font-size: 22px; }
